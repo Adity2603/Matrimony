@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/lh1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/s2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/s1"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nme2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mawra Hocane"
+                        android:textColor="#CC2D2D"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ag2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="25yrs" />
+
+                    <TextView
+                        android:id="@+id/edu2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MBA" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/btn2"
+                            android:layout_width="120dp"
+                            android:layout_height="35dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/list_btn"
+                            android:text="Request"
+                            android:textColor="@color/white"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/v2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#BFB6B6" />
+
+
+            <LinearLayout
+                android:id="@+id/lh2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/s3"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/s2"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nme1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Alia Bhatt"
+                        android:textColor="#CC2D2D"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ag1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="26yrs" />
+
+                    <TextView
+                        android:id="@+id/edu1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Teacher" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/btn1"
+                            android:layout_width="120dp"
+                            android:layout_height="35dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/list_btn"
+                            android:text="Request"
+                            android:textColor="@color/white"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/v1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#BFB6B6" />
+
+
+            <!--            **************************************************-->
+
+
+            <LinearLayout
+                android:id="@+id/lh3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/s1"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/s3"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nme3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tejasri Pradhan"
+                        android:textColor="#CC2D2D"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ag3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="26yrs" />
+
+                    <TextView
+                        android:id="@+id/edu3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Actor" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/btn3"
+                            android:layout_width="120dp"
+                            android:layout_height="35dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/list_btn"
+                            android:text="Request"
+                            android:textColor="@color/white"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/v3"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#BFB6B6" />
+
+
+            <!--            ************************************************************-->
+
+
+            <LinearLayout
+                android:id="@+id/lh4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/s4"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/s4"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nme4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sayali"
+                        android:textColor="#CC2D2D"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ag4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="25yrs" />
+
+                    <TextView
+                        android:id="@+id/edu4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Vlogger" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/btn4"
+                            android:layout_width="120dp"
+                            android:layout_height="35dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/list_btn"
+                            android:text="Request"
+                            android:textColor="@color/white"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/v4"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#BFB6B6" />
+
+
+            <!--            *******************************************************-->
+
+
+            <LinearLayout
+                android:id="@+id/lh5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/s5"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/s5"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nme5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Prajkta Mali"
+                        android:textColor="#CC2D2D"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ag5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="25yrs" />
+
+                    <TextView
+                        android:id="@+id/edu5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cunsultant" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/btn5"
+                            android:layout_width="120dp"
+                            android:layout_height="35dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/list_btn"
+                            android:text="Request"
+                            android:textColor="@color/white"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/v5"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#BFB6B6" />
+
+
+            <!--            ******************************************************-->
+
+            <LinearLayout
+                android:id="@+id/lh6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/s6"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/s6"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nme6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sonalee Kulkarni"
+                        android:textColor="#CC2D2D"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ag6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="27yrs" />
+
+                    <TextView
+                        android:id="@+id/edu6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Actress" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/btn6"
+                            android:layout_width="120dp"
+                            android:layout_height="35dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/list_btn"
+                            android:text="Request"
+                            android:textColor="@color/white"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/v6"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#BFB6B6" />
+
+
+            <!--            *******************************************************-->
+
+
+            <LinearLayout
+                android:id="@+id/lh7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/s7"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/s7"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nme7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hruta"
+                        android:textColor="#CC2D2D"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ag7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="26yrs" />
+
+                    <TextView
+                        android:id="@+id/edu7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MBA" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/btn7"
+                            android:layout_width="120dp"
+                            android:layout_height="35dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/list_btn"
+                            android:text="Request"
+                            android:textColor="@color/white"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/v7"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#BFB6B6" />
+
+
+            <!--            ***********************************************-->
+
+
+            <LinearLayout
+                android:id="@+id/lh8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/s8"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/s8"
+                    app:civ_border_color="#FF000000"
+                    app:civ_border_width="2dp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nme8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Priya Bapat"
+                        android:textColor="#CC2D2D"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ag8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="27yrs" />
+
+                    <TextView
+                        android:id="@+id/edu8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Chef" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/btn9"
+                            android:layout_width="120dp"
+                            android:layout_height="35dp"
+                            android:layout_marginRight="20dp"
+                            android:background="@drawable/list_btn"
+                            android:text="Request"
+                            android:textColor="@color/white"
+                            tools:ignore="TouchTargetSizeCheck" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/v8"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="5dp"
+                android:background="#BFB6B6" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

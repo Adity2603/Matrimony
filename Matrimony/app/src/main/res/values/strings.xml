@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Matrimony</string>
+    <string name="select">Religion</string>
+    <string-array name="cast">
+        <item>Religion</item>
+        <item>Hindu</item>
+        <item>Muslim</item>
+        <item>Jain</item>
+        <item>Sikh</item>
+        <item>Christian</item>
+        <item>Buddhist</item>
+    </string-array>
+
+
+    <string-array name="toung">
+        <item>Mother Toung</item>
+        <item>Marathi</item>
+        <item>Hindi</item>
+        <item>Gujrati</item>
+        <item>Marvari</item>
+        <item>urdu</item>
+        <item>Kannad</item>
+
+    </string-array>
+    <string name="title_activity_list">List</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Aditya Deshmukh</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Profile</string>
+    <string name="menu_slideshow">Proposal to me</string>
+<!--    <string name="menu_change">Change Password</string>-->
+    <string name="menu_share">Share</string>
+
+<!--    <string name="hello_blank_fragment">Hello blank fragment</string>-->
+    <string name="menu_change">Change password</string>
+
+
+</resources>
